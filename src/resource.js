@@ -24,9 +24,12 @@
 
 var res = {
     HelloWorld_png : "res/HelloWorld.png",
+    Fanta_png : "res/sprite.png",
 };
 
-var g_resources = [];
+var g_resources = [
+	res.Fanta_png,
+];
 for (var i in res) {
     g_resources.push(res[i]);
 }
